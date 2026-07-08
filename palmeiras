@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedade Esportiva Palmeiras - O Maior Campeão do Brasil</title>
+    <style>
+        /* Reset de estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho (Header) */
+        header {
+            background-color: #006437; /* Verde Palmeiras */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #b39359; /* Dourado */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #e0e0e0;
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção Sobre */
+        .sobre {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            border-left: 8px solid #006437;
+        }
+
+        .sobre h2 {
+            color: #006437;
+            margin-bottom: 15px;
+        }
+
+        /* Seção de Títulos */
+        .titulos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-top: 4px solid #b39359;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #006437;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        .card .numero {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #b39359;
+            margin-top: 5px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1c1c1c;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+            font-size: 0.9rem;
+        }
+
+        footer span {
+            color: #006437;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sociedade Esportiva Palmeiras</h1>
+        <p>Nasce campeão. Avanti, Palestra!</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="sobre">
+            <h2>História Alviverde</h2>
+            <p>Fundado em 26 de agosto de 1914 como <strong>Palestra Italia</strong>, o clube foi forçado a mudar de nome em 1942 para Sociedade Esportiva Palmeiras. Conhecido tradicionalmente como o "Maior Campeão do Brasil", o Verdão possui uma das trajetórias mais vitoriosas e apaixonantes do futebol mundial, com uma torcida que canta e vibra!</p>
+        </section>
+
+        <h2 style="color: #006437; margin-bottom: 20px; text-align: center;">Principais Conquistas</h2>
+        
+        <section class="titulos">
+            <div class="card">
+                <h3>Libertadores</h3>
+                <p>A Glória Eterna das Américas</p>
+                <div class="numero">3</div>
+            </div>
+
+            <div class="card">
+                <h3>Campeonato Brasileiro</h3>
+                <p>O Maior Campeão Nacional</p>
+                <div class="numero">12</div>
+            </div>
+
+            <div class="card">
+                <h3>Copa do Brasil</h3>
+                <p>Tradição em Mata-Mata</p>
+                <div class="numero">4</div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Página criada por um torcedor do <span>Palmeiras</span> &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
